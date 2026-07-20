@@ -20,6 +20,8 @@
 | **Architect Agent** | VS Code | OpenCode | `/docs/` (domain, specs, architecture) |
 | **Programmer Agent** | VS Code | OpenCode | `/src/`, `/tests/`, `/infra/` |
 | **QA Automation Agent** | VS Code | OpenCode | `/tests/`, `/docs/specs/` (READ) |
+| **RTE Agent** | VS Code | OpenCode | `.backlog/pi-*/`, `.backlog/dependencies/`, `/docs/architecture/adr/program-board-*.md` |
+| **Risk Manager Agent** | VS Code | OpenCode | `.backlog/risk-audit/` (write), `.backlog/`, `/docs/architecture/adr/`, `.members/` (read) |
 
 ## 3. Target Infrastructure Manifest Targets
 - **CI/CD orchestration tool:** TBD.
